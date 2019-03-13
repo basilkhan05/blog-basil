@@ -45,33 +45,27 @@ const Footer = () => (
   <Wrapper>
     <List>
       <Item>
+        © {' '}
         <a
-          href="https://www.contentful.com/"
+          href="https://www.basilkhan.ca"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
-          <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
+          Basil Khan 
+        </a>{' '}
+        {new Date().getFullYear()}
       </Item>
       <Item>
-        <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          gatsby-starter-gcn
+        <a href="/">
+          Basil's Blog
         </a>{' '}
         by{' '}
         <a
-          href="https://github.com/ryanwiemer"
+          href="https://github.com/basilkhan05"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @ryanwiemer
+          @basilkhan05
         </a>
       </Item>
     </List>
