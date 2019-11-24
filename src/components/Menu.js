@@ -58,9 +58,9 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <a href="https://www.basilkhan.ca" activeStyle={activeLinkStyle} target="_blank">
+            <Link to="/about/" activeStyle={activeLinkStyle}>
               About
-            </a>
+            </Link>
           </li>
         </ul>
       </Nav>
