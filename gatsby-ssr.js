@@ -1,12 +1,12 @@
 import React from "react"
 
 export const onRenderBody = (
-  { setHeadComponents, setPostBodyComponents },
+  { setPostBodyComponents },
   pluginOptions
 ) => {
   return setPostBodyComponents([
     <script
-      key={`gatsby-plugin-google-analytics`}
+      key={`gatsby-embedly-platform-js`}
       dangerouslySetInnerHTML={{
         __html: `
           (function(w, d){
